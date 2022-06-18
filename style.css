@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@700&display=swap');
+
+:root{
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-box{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+}
+
+.first-box h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: bold;
+    font-family: var(font-family);
+    font-weight: var(font-weight);
+}
+    
+
+.first-box p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 40px;
+}
+
+.second-box{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+}
+
+.second-box h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: bold;
+    font-family: var(font-family);
+    font-weight: var(font-weight);
+}
+    
+
+.second-box p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive; 
+    margin-bottom: 40px;
+
+}
+
+
+.third-box{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+}
+
+.third-box h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: bold;
+    font-family: var(font-family);
+    font-weight: var(font-weight);
+}
+    
+
+.third-box p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 40px;
+}
+
+.button-1{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    width: 110px;
+    color: hsl(32,34%,70%);
+}
+
+
+.button-2{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    width: 110px;
+    color: hsl(175,19%,39%);
+}
+
+
+.button-3{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px;
+    border-style: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    width: 110px;
+    color: hsl(175,19%,39%);
+}
+
+.img{
+    padding-bottom: 10px;
+}
+
